@@ -5,7 +5,7 @@ window = Tk()
 window.geometry("600x600")
 
 window.rowconfigure((0,1),weight=1,uniform="x")
-window.columnconfigure((0,1),weight=1,uniform="y")
+window.columnconfigure((0,1),weight=1,uniform="x")
 
 positions = [[1,2],[3,4]]
 colors = ["red","green","blue","purple"]
